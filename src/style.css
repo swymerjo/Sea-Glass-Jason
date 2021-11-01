@@ -1,4 +1,7 @@
-body {
+h1,li, p {
+    font-family: fantasy;
+}
+.homepage-background {
     background-image: url('/images/francesca-petringa--XrC5awSgkA-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -8,11 +11,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    font-family: fantasy;
     font-weight: bold;
 }
 .homepage-name {
-    font-family: fantasy;
     margin-top: 400px;
     color: white;
     padding: 40px;
@@ -23,4 +24,14 @@ body {
 max-width: 600px;
 display: block;
 margin: 0 auto;
+}
+.home-link, .about-link, .projects-link {
+    color: black;
+}
+.home-link:hover, .about-link:hover, .projects-link:hover   {
+    color: white;
+    text-decoration: none;
+}
+.projects-background {
+    background: #71CEE1
 }
