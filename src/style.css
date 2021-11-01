@@ -99,6 +99,7 @@ border-radius: 10px;
   .footer-link:hover {
     color: #09bdca;
   }
+ 
 @media(max-width:576px) {
     img {
         margin-top: 10px;
