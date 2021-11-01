@@ -1,0 +1,26 @@
+body {
+    background-image: url('/images/francesca-petringa--XrC5awSgkA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.homepage-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.homepage-name {
+    font-family: fantasy;
+    margin-top: 400px;
+    color: white;
+    padding: 40px;
+    background: #88B2D4;
+    border-radius: 4px;
+}
+.container-home {
+max-width: 600px;
+display: block;
+margin: 0 auto;
+}
