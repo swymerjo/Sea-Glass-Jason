@@ -1,6 +1,9 @@
 h1,li, p, .projects-links {
     font-family: fantasy;
 }
+footer {
+    color: white;
+}
 .homepage-background {
     background-image: url('/images/francesca-petringa--XrC5awSgkA-unsplash.jpg');
     background-repeat: no-repeat;
@@ -63,6 +66,35 @@ border-radius: 10px;
     padding-bottom: 30px;
     border-radius: 4px;
 }
+.social-icon {
+    font-size: 40pt;
+    padding-right: 20px;
+  }
+  .instagram-icon {
+    color: #ED5563
+  }
+  .twitter-icon {
+    color: #09bdca;
+  }
+  .linkedin-icon {
+    color: #6DDAE2
+  }
+
+  .footer-name{
+    color: antiquewhite;
+    font-weight: bold;
+  }
+  
+  .footer-link {
+    color: pink;
+    font-weight: bold;
+  }
+  .footer-name:hover{
+    color: pink;
+  }
+  .footer-link:hover {
+    color: antiquewhite;
+  }
 @media(max-width:576px) {
     img {
         margin-top: 10px;
