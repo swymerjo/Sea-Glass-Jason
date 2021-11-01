@@ -1,4 +1,4 @@
-h1,li, p {
+h1,li, p, .projects-links {
     font-family: fantasy;
 }
 .homepage-background {
@@ -17,6 +17,7 @@ h1,li, p {
     margin-top: 400px;
     color: white;
     padding: 40px;
+    padding-top: 45px;
     background: #88B2D4;
     border-radius: 4px;
 }
@@ -34,4 +35,26 @@ margin: 0 auto;
 }
 .projects-background {
     background: #9bddeb
+}
+.project-image {
+border-radius: 10px;
+}
+.projects-links-wrapper {
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background: #88B2D4;
+}
+.projects-links {
+    color: black;
+    text-decoration: none;
+}
+.projects-links:hover {
+    color: white;
+    text-decoration: none;
+}
+.container-projects {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
 }
