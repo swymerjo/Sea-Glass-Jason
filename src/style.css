@@ -37,10 +37,13 @@ margin: 0 auto;
     text-decoration: none;
 }
 .projects-name {
-    color: rgb(17, 160, 179);
+    max-width: 90%;
+    background-image: url('/images/container-blog.webp');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
-.projects-background {
-    background: #b2edfa
+.seaglass-projects{
+    color: oldlace;
 }
 .project-image {
 border-radius: 10px;
@@ -49,7 +52,7 @@ border-radius: 10px;
     justify-content: space-evenly;
     padding-top: 30px;
     padding-bottom: 10px;
-    background: #88B2D4;
+    background: rgb(252, 230, 109);
 }
 .projects-links {
     color: rgb(20, 17, 17);
@@ -99,7 +102,7 @@ border-radius: 10px;
   .footer-link:hover {
     color: #09bdca;
   }
- 
+
 @media(max-width:576px) {
     img {
         margin-top: 10px;
