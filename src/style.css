@@ -40,10 +40,11 @@ margin: 0 auto;
     max-width: 90%;
     background-image: url('/images/container-blog.webp');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position:center;
+    padding:80px;
 }
 .seaglass-projects{
-    color: oldlace;
+    color: snow;
 }
 .project-image {
 border-radius: 10px;
