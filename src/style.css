@@ -124,7 +124,7 @@ border-radius: 10px;
         font-size: 16pt;
     }
     .homepage-background {
-      background-attachment:scroll;
+      background-position: center;
     }
     .homepage-name {
       padding: 20px;
