@@ -28,6 +28,7 @@ footer {
     padding: 40px;
     padding-top: 45px;
     background: #88B2D4;
+    opacity: 0.9;
     border-radius: 4px;
 }
 .container-home {
@@ -110,6 +111,7 @@ border-radius: 10px;
     color: #09bdca;
   }
 
+
 @media(max-width:576px) {
     img {
         margin-top: 10px;
@@ -119,6 +121,15 @@ border-radius: 10px;
     }
     html h1 {
         font-size: 16pt;
+    }
+    .homepage-background {
+      background-attachment:scroll;
+    }
+    .homepage-name {
+      padding: 20px;
+    }
+    .projects-name {
+      padding:10px;
     }
   
 }
