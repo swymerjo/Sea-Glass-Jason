@@ -1,14 +1,17 @@
-.body-projects {
-    background-image: url('/images/beach.webp');
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
+
+h1, h3, li, p, .projects-links {
+  font-family: "Indie Flower", cursive;
 }
-h1,li, p, .projects-links {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
+
 footer {
     color: black;
+}
+
+.body-projects {
+  background-image: url('/images/beach.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
 }
 .homepage-background {
     background-image: url('/images/francesca-petringa--XrC5awSgkA-unsplash.jpg');
@@ -66,6 +69,7 @@ border-radius: 10px;
 .projects-links {
     color: snow;
     text-decoration: none;
+    font-size: 20pt;
 }
 .projects-links:hover {
     color: black;
@@ -111,7 +115,33 @@ border-radius: 10px;
   .footer-link:hover {
     color: #09bdca;
   }
+.project-box {
+  border: solid 2px white;
+  border-radius: 3px;
+  background: #EAC6AD;
+  opacity: 0.8;
+  margin-bottom: 50px;
+  padding: 30px;
 
+}
+.project-box-image {
+  float: right;
+  border-radius: 30px;
+}
+.project-box-description-left {
+  padding: 4px;
+  float: left;
+}
+.project-box-description-right {
+  padding: 4px;
+  float: right;
+}
+.project-button {
+  background: #6DDAE2;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  border: solid 2px white;
+}
 
 @media(max-width:576px) {
     img {
