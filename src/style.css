@@ -158,6 +158,9 @@ border-radius: 10px;
   color: white;
   font-style: italic;
 }
+.desert-art-body {
+background: #EAC6AD;
+}
 
 @media(max-width:576px) {
 
