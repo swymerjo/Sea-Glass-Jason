@@ -3,6 +3,7 @@ h1, h3, li, p, .projects-links,footer {
   font-family: "Indie Flower", cursive;
 }
 
+
 footer {
     color: black;
 }
@@ -51,10 +52,11 @@ margin: 0 auto;
   border: 2px solid white;
   max-width: 60%;
     padding:50px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .seaglass-projects{
     color: snow;
+    font-weight: bold;
     padding-top: 10px;
 }
 .project-image {
@@ -145,15 +147,16 @@ border-radius: 10px;
   font-family: "Indie Flower", cursive;
   font-weight: bold;
   border: solid 2px white;
+  padding: 20px 10px 20px 10px;
 }
 
 @media(max-width:576px) {
 
     li {
-        font-size: 12pt;;
+        font-size: 18pt;;
     }
     html h1 {
-        font-size: 16pt;
+        font-size: 28pt;
     }
     .homepage-background {
       background-position: center;
@@ -173,6 +176,16 @@ border-radius: 10px;
       text-align: center;
       margin-top: 10px;
     }
+    .projects-name {
+    max-width: 100%;
+    text-align: center;
+    }
+    .icon-wrapper {
+      padding: 10px; 
+    }
+    .seaglass-projects{
+      padding: 20px 10px;
+  }
 
   
 }
