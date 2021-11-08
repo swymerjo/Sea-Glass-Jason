@@ -92,6 +92,7 @@ border-radius: 10px;
     font-size: 40pt;
     padding-right: 20px;
   }
+
   .instagram-icon {
     color: #e71c31
   }
@@ -196,10 +197,4 @@ border-radius: 10px;
   }
 
   
-}
-@media(min-width:1000px) {
-.icon-wrapper {
-  display:inline;
-  padding-bottom: 30px; 
-}
 }
