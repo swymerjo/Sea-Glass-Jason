@@ -1,5 +1,5 @@
 
-h1, h3, li, p, .projects-links {
+h1, h3, li, p, .projects-links,footer {
   font-family: "Indie Flower", cursive;
 }
 
@@ -94,26 +94,29 @@ border-radius: 10px;
     color: #e71c31
   }
   .twitter-icon {
-    color: #09bdca;
+    color: #2ddbe7;
   }
   .linkedin-icon {
-    color: #6DDAE2
+    color: #80f0f8
+  }
+  .footer-projects {
+    background: #EAC6AD;
   }
 
   .footer-name{
-    color: #09bdca;
+    color: #3c9fa7;
     font-weight: bold;
   }
   
   .footer-link {
-    color: rgb(241, 157, 171);
+    color: rgb(240, 110, 132);
     font-weight: bold;
   }
   .footer-name:hover{
-    color: rgb(241, 157, 171);
+    color: rgb(240, 110, 132);
   }
   .footer-link:hover {
-    color: #09bdca;
+    color: #3c9fa7;
   }
 .project-box {
   border: solid 2px white;
@@ -126,7 +129,8 @@ border-radius: 10px;
 }
 .project-box-image {
   float: right;
-  border-radius: 30px;
+  border-radius: 4px;
+  border: solid 2px white;
 }
 .project-box-description-left {
   padding: 4px;
@@ -137,16 +141,14 @@ border-radius: 10px;
   float: right;
 }
 .project-button {
-  background: #6DDAE2;
+  background: #df9b68;
   font-family: "Indie Flower", cursive;
   font-weight: bold;
   border: solid 2px white;
 }
 
 @media(max-width:576px) {
-    img {
-        margin-top: 10px;
-    }
+
     li {
         font-size: 12pt;;
     }
@@ -163,6 +165,15 @@ border-radius: 10px;
     .projects-name {
       padding:10px;
     }
+    .project-box {
+      text-align: center;
+    }
+    .project-box-image {
+      float: none;
+      text-align: center;
+      margin-top: 10px;
+    }
+
   
 }
 @media(min-width:1000px) {
