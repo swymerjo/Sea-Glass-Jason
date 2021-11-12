@@ -9,13 +9,13 @@ footer {
 }
 
 .body-projects {
-  background-image: url('/images/beach.webp');
+  background-image: url('/images/Backgrounds/beach.webp');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
 }
 .homepage-background {
-    background-image: url('/images/francesca-petringa--XrC5awSgkA-unsplash.jpg');
+    background-image: url('/images/Backgrounds/francesca-petringa--XrC5awSgkA-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
@@ -159,8 +159,9 @@ border-radius: 10px;
   font-style: italic;
 }
 .desert-art-body {
-background: #EAC6AD;
+  background-color: #88B2D4;
 }
+
 
 @media(max-width:576px) {
 
