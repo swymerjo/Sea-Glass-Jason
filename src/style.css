@@ -15,7 +15,7 @@ footer {
   background-size: cover;
 }
 .homepage-background {
-    background-image: url('/images/Backgrounds/francesca-petringa--XrC5awSgkA-unsplash.jpg');
+    background-image: url('/images/Backgrounds/genova-4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
@@ -134,6 +134,8 @@ border-radius: 10px;
   float: right;
   border-radius: 4px;
   border: solid 2px white;
+  padding: 5px;
+  background: white;
 }
 .project-box-description-left {
   padding: 4px;
@@ -159,9 +161,36 @@ border-radius: 10px;
   font-style: italic;
 }
 .desert-art-body {
-  background-color: #b9dbf7;
+  background-image: url('/images/Backgrounds/desert.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
 }
 
+.about-body {
+  background-image: url('/images/Backgrounds/genova-5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.sealife-body {
+  background-image: url('/images/Backgrounds/jellyfish.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.abstract-body {
+  background-image: url('/images/Backgrounds/abstract-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.page-title{
+  background: #EAC6AD;
+  opacity: 0.9;
+}
 
 @media(max-width:576px) {
 
