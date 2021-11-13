@@ -191,6 +191,16 @@ border-radius: 10px;
   background: #EAC6AD;
   opacity: 0.9;
 }
+.about-container {
+  margin: 100px;
+  text-align: center;
+  background: #EAC6AD;
+  padding: 100px;
+  opacity: 0.9;
+  border-radius: 4px;
+  border: solid 4px white;
+
+}
 
 @media(max-width:576px) {
 
