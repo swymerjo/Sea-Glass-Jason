@@ -49,12 +49,12 @@ margin: 0 auto;
     color: white;
     text-decoration: none;
 }
-.projects-name {
+.projects-name, .about-me-header {
   background-color: #EAC6AD;
   border: 2px solid white;
-  max-width: 60%;
+  max-width: 30%;
     padding:50px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .seaglass-projects{
     color: black;
@@ -127,7 +127,7 @@ border-radius: 10px;
   border: solid 2px white;
   border-radius: 3px;
   background: #EAC6AD;
-  opacity: 0.8;
+  opacity: 0.9;
   margin-bottom: 50px;
   padding: 30px;
 
@@ -203,9 +203,13 @@ border-radius: 10px;
   border: solid 4px white;
 
 }
+.description-about{
+  margin-right: 100pt;
+}
 .profile-pic {
 border: 4px solid white;
-margin: 70px;
+margin-top: 70px;
+margin-left: 50px;
 }
 .price-list {
   text-align: start;
@@ -241,7 +245,7 @@ margin: 70px;
   background: #3c9fa7;
   color: white;
   font-family: "Indie Flower", cursive;
-  font-size: 25pt;
+  font-size: 20pt;
   border: 4px solid white;
   text-decoration: none;
 }
@@ -329,8 +333,11 @@ max-width: 100%;
 }
 .order-button-small{
  display: block;
- margin: o auto;
  text-align: center;
+
+}
+.description-about{
+  margin: 0;
 }
   
 }
