@@ -242,6 +242,22 @@ margin: 70px;
     .seaglass-projects{
       padding: 20px 10px;
   }
+  .about-container {
+    max-width: 100%;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 70px;
+  }
+  .profile-pic { 
+width: 200px;
+display: block;
+margin: 0 auto;
+  }
+  .project-box-image{
+    display: block;
+margin: 0 auto;
+margin-bottom: 20px;
+  }
 
   
 }
