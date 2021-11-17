@@ -3,7 +3,9 @@ h1, h2, h3, li, p, .projects-links,footer {
   font-family: "Indie Flower", cursive;
 }
 
-
+p{
+  font-size: 14pt;
+}
 footer {
     color: black;
 }
@@ -225,7 +227,46 @@ margin: 70px;
   padding: 20px;
   opacity: 0.9;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: white;
+}
+.order-button {
+  border-radius: 6px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #3c9fa7;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 25pt;
+  border: 4px solid white;
+  text-decoration: none;
+}
+.order-button:hover{
+  background: #df9b68;
+  color: #3c9fa7;
+}
+.order-button-small {
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #df9b68;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 20pt;
+  border: 4px solid white;
+  text-decoration: none;
+}
+.order-button-small:hover{
+  background: #EAC6AD;
+  color: #3c9fa7;
+}
+.order-button-container{
+  margin-left: 350px;
+  margin-right: 350px;
 }
 @media(max-width:576px) {
 
