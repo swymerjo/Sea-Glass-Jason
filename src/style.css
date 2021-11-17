@@ -205,7 +205,28 @@ border-radius: 10px;
 border: 4px solid white;
 margin: 70px;
 }
-
+.price-list {
+  text-align: start;
+  list-style: square;
+  font-style: italic;
+}
+.email {
+  text-decoration: none;
+  color: #EAC6AD;
+  font-size: 15pt;
+}
+.email:hover{
+  color: #df9b68;
+}
+.container-prices {
+  background:#3c9fa7;
+  max-width: 50%;
+  border-radius: 4px;
+  padding: 20px;
+  opacity: 0.9;
+  margin-top: 20px;
+  color: white;
+}
 @media(max-width:576px) {
 
     li {
