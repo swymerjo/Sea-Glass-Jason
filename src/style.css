@@ -56,7 +56,7 @@ margin: 0 auto;
     padding:50px;
     opacity: 0.9;
 }
-.seaglass-projects{
+.page-header{
     color: black;
     font-weight: bold;
     padding-top: 10px;
@@ -287,9 +287,6 @@ margin-left: 50px;
       padding: 20px;
       margin-top: 400px;
     }
-    .projects-name {
-      padding:10px;
-    }
     .project-box {
       text-align: center;
     }
@@ -298,14 +295,15 @@ margin-left: 50px;
       text-align: center;
       margin-top: 10px;
     }
-    .projects-name {
+    .projects-name, .about-me-header {
     max-width: 100%;
     text-align: center;
+    padding: 30px;
     }
     .icon-wrapper {
       padding: 10px; 
     }
-    .seaglass-projects{
+    .page-header{
       padding: 20px 10px;
   }
   .about-container {
